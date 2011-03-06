@@ -2,6 +2,6 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn: 'mysql:host=localhost;dbname=agenttrg;'
+      dsn: 'mysql:host=localhost;dbname=designer;'
       username: root
       password: Th3s0urc3
