@@ -1,0 +1,213 @@
+body
+{
+	background: #FFF url(/images/software/body-background.png) top left repeat-x;
+}
+#splash_screen
+{
+	width: 860px;
+	height: 540px;
+	margin: 10px auto;
+	background: transparent url(/images/software/splash-screen-background.png);
+	position: relative;
+}
+#splash_screen_header
+{
+	position: absolute;
+	top: 0px;
+	left: 40px;
+	width: 780px;
+	height: 154px;
+	background: transparent url(/images/software/splash-screen-header.png) top left no-repeat;
+}
+#splash_screen_footer
+{
+	position: absolute;
+	bottom: -5px;
+	left: 40px;
+	width: 780px;
+	height: 125px;
+	background: transparent url(/images/software/splash-screen-footer.png) top left no-repeat;
+}
+#updates_progress_bar, #connection_progress_bar
+{
+	position: absolute;
+	left: 85px;
+}
+#updates_progress_bar
+{
+	bottom: 69px;
+}
+#connection_progress_bar
+{
+	bottom: 17px;
+}
+#header
+{
+	width: 916px;
+	height: 119px;
+	background: transparent url(/images/software/header.png) top left no-repeat;
+	margin: 0 auto;
+	position: relative;
+}
+#slider
+{
+	width: 655px;
+	height: 122px;
+	margin: 0 auto;
+	background: transparent url(/images/software/slider-background.png) top left no-repeat;
+	position: relative;
+}
+.ui-slider-handle
+{
+	background: transparent url(/images/software/slider-button.png) top left no-repeat!important;
+	width: 20px!important;
+	height: 30px!important;
+	border: 0 none!important;
+}
+.slider-label
+{
+	font-size: 18px;
+}
+.option-label
+{
+	font-size: 16px;
+}
+#deposit_amount_value
+{
+	font-size: 24px;
+	color: #568E3F;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+}
+#slider_bar
+{
+	position: absolute;
+	top: 80px;
+	left: 15px;
+	width: 625px;
+	height: 20px;
+}
+#number_of_properties
+{
+	font-size: 18px;
+	position: absolute;
+	top: 8px;
+	left: 106px;
+}
+#options
+{
+	width: 655px;
+	height: 74px;
+	margin: 0 auto;
+	padding: 4px 0 0 0;
+}
+.option
+{
+	width: 215px;
+	height: 74px;
+	float: left;
+	background: url(/images/software/options-background.png) top left no-repeat;
+	margin: 0 5px 0 0;
+	position: relative;
+}
+.option h2
+{
+	font-size: 16px;
+	position: absolute;
+	top: 4px;
+	left: 10px;
+	margin: 0;
+	padding: 0;
+}
+#find_investments
+{
+	display: block;
+	background: transparent url(/images/software/find-investments-button-background.png) top left no-repeat;
+	color: #FFF;
+	height: 40px;
+	line-height: 40px;
+	width: 655px;
+	margin: 6px auto;
+	font-size: 24px;
+	text-decoration: none;
+	text-align: center;
+}
+.text-box
+{
+	display: block;
+	width: 187px;
+	height: 23px;
+	line-height: 23px;
+	padding: 0;
+	margin: 0;
+	background: transparent url(/images/software/text-box-background.png) top left no-repeat;
+	border: 0 none;
+	position: absolute;
+	top: 34px;
+	left: 12px;
+	text-align: center;
+	font-size: 16px;
+}
+#cash
+{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+}
+#sipp
+{
+	position: absolute;
+	top: 30px;
+	left: 110px;
+}
+#properties_container
+{
+	width: 648px;
+	margin: 0 auto;
+	padding: 0 0 20px 0!important;
+}
+.pager
+{
+	height: 33px!important;
+	width: 628px!important;
+	padding: 13px 10px 0 10px!important;
+	background: transparent url(/images/software/pager-background.png) top left!important;
+	margin: 0!important;
+}
+.pagedisplay, .filter-search, .page-size
+{
+	color: #FFF!important;
+}
+table.crud td, table.crud th
+{
+	padding: 8px 10px!important;
+	border: 1px solid #000!important;
+}
+table.crud th
+{
+	color: #FFF!important;
+	font-size: 16px;
+	padding: 5px 10px!important;
+}
+table.crud td
+{
+	font-size: 13px;
+}
+table.crud th.header
+{
+	background-color: #424344!important;
+}
+table.crud th.headerSortDown, table.crud th.headerSortUp
+{
+	background-color: #5AA847!important;
+}
+#loading
+{
+	font-size: 14px;
+	padding: 15px 0 0 0;
+}
+a, a:hover
+{
+	color: #5AA847;
+}
