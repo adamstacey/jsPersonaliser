@@ -1,20 +1,17 @@
-# You can find more information about this file on the symfony website:
-# http://www.symfony-project.org/reference/1_4/en/13-View
-
 default:
   http_metas:
     content-type: text/html
 
   metas:
-    title:        Agent Sales Toolkit - The Resort Group PLC
+    title:        Stationery Designer
     description:  
-    keywords:     agent, sales, toolkit, the resort group
+    keywords:     stationery designer
     language:     en
     robots:       index, follow
 
-  stylesheets:    [agent.css, jquery-ui.css]
+  stylesheets:    [designer.css, jquery-ui.css]
 
-  javascripts:    [compressed]
+  javascripts:    [raphael, uploadify, farbtastic]
 
   has_layout:     true
   layout:         layout

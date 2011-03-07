@@ -19496,3 +19496,164 @@ Mar 01 02:56:48 symfony [info] {sfWebDebugLogger} Partial "properties/_add" 14.8
 Mar 01 02:56:48 symfony [info] {sfWebDebugLogger} Partial "properties/_addScript" 4.25 ms (1)
 Mar 01 02:56:48 symfony [info] {sfWebDebugLogger} Partial "properties/_ajaxListScript" 1.57 ms (1)
 Mar 01 02:56:48 symfony [info] {sfWebResponse} Send content (10096 o)
+Mar 06 21:51:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'designs',  'action' => 'index',)
+Mar 06 21:51:40 symfony [info] {sfFrontWebController} Action "designs/index" does not exist
+Mar 06 21:51:40 symfony [err] {sfError404Exception} Action "designs/index" does not exist.
+Mar 06 21:51:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 06 21:51:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 21:51:40 symfony [info] {sfWebDebugLogger} Configuration 71.04 ms (5)
+Mar 06 21:51:40 symfony [info] {sfWebDebugLogger} Factories 72.71 ms (1)
+Mar 06 21:52:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'designs',  'action' => 'index',)
+Mar 06 21:52:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 06 21:52:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 06 21:52:23 symfony [info] {designsActions} Call "designsActions->executeIndex()"
+Mar 06 21:52:23 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/designs/templates/indexSuccess.php"
+Mar 06 21:52:23 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:52:23 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:52:23 symfony [info] {main} Call "system->executeBrowserCheck()"
+Mar 06 21:52:23 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_browserCheck.php"
+Mar 06 21:52:23 symfony [info] {main} Call "system->executeJavascriptCheck()"
+Mar 06 21:52:23 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_javascriptCheck.php"
+Mar 06 21:52:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 06 21:52:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 21:52:23 symfony [info] {sfWebDebugLogger} Configuration 16.05 ms (12)
+Mar 06 21:52:23 symfony [info] {sfWebDebugLogger} Factories 6.14 ms (1)
+Mar 06 21:52:23 symfony [info] {sfWebDebugLogger} Action "designs/index" 0.12 ms (1)
+Mar 06 21:52:23 symfony [info] {sfWebDebugLogger} View "Success" for "designs/index" 13.99 ms (1)
+Mar 06 21:52:23 symfony [info] {sfWebDebugLogger} Component "system/browserCheck" 0.04 ms (1)
+Mar 06 21:52:23 symfony [info] {sfWebDebugLogger} Partial "system/_browserCheck" 0.36 ms (1)
+Mar 06 21:52:23 symfony [info] {sfWebDebugLogger} Component "system/javascriptCheck" 0.01 ms (1)
+Mar 06 21:52:23 symfony [info] {sfWebDebugLogger} Partial "system/_javascriptCheck" 0.48 ms (1)
+Mar 06 21:52:23 symfony [info] {sfWebResponse} Send content (38320 o)
+Mar 06 21:54:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'designs',  'action' => 'index',)
+Mar 06 21:54:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 06 21:54:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 06 21:54:07 symfony [info] {designsActions} Call "designsActions->executeIndex()"
+Mar 06 21:54:07 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/designs/templates/indexSuccess.php"
+Mar 06 21:54:07 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:54:07 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:54:07 symfony [info] {main} Call "system->executeBrowserCheck()"
+Mar 06 21:54:07 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_browserCheck.php"
+Mar 06 21:54:07 symfony [info] {main} Call "system->executeJavascriptCheck()"
+Mar 06 21:54:07 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_javascriptCheck.php"
+Mar 06 21:54:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 06 21:54:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 21:54:07 symfony [info] {sfWebDebugLogger} Configuration 1.62 ms (11)
+Mar 06 21:54:07 symfony [info] {sfWebDebugLogger} Factories 6.58 ms (1)
+Mar 06 21:54:07 symfony [info] {sfWebDebugLogger} Action "designs/index" 0.12 ms (1)
+Mar 06 21:54:07 symfony [info] {sfWebDebugLogger} View "Success" for "designs/index" 7.62 ms (1)
+Mar 06 21:54:07 symfony [info] {sfWebDebugLogger} Component "system/browserCheck" 0.03 ms (1)
+Mar 06 21:54:07 symfony [info] {sfWebDebugLogger} Partial "system/_browserCheck" 0.42 ms (1)
+Mar 06 21:54:07 symfony [info] {sfWebDebugLogger} Component "system/javascriptCheck" 0.01 ms (1)
+Mar 06 21:54:07 symfony [info] {sfWebDebugLogger} Partial "system/_javascriptCheck" 0.32 ms (1)
+Mar 06 21:54:07 symfony [info] {sfWebResponse} Send content (38317 o)
+Mar 06 21:55:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'designs',  'action' => 'index',)
+Mar 06 21:55:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 06 21:55:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 06 21:55:46 symfony [info] {designsActions} Call "designsActions->executeIndex()"
+Mar 06 21:55:46 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/designs/templates/indexSuccess.php"
+Mar 06 21:55:46 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:55:46 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:55:46 symfony [info] {main} Call "system->executeBrowserCheck()"
+Mar 06 21:55:46 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_browserCheck.php"
+Mar 06 21:55:46 symfony [info] {main} Call "system->executeJavascriptCheck()"
+Mar 06 21:55:46 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_javascriptCheck.php"
+Mar 06 21:55:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 06 21:55:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 21:55:46 symfony [info] {sfWebDebugLogger} Configuration 1.80 ms (11)
+Mar 06 21:55:46 symfony [info] {sfWebDebugLogger} Factories 5.50 ms (1)
+Mar 06 21:55:46 symfony [info] {sfWebDebugLogger} Action "designs/index" 0.21 ms (1)
+Mar 06 21:55:46 symfony [info] {sfWebDebugLogger} View "Success" for "designs/index" 7.27 ms (1)
+Mar 06 21:55:46 symfony [info] {sfWebDebugLogger} Component "system/browserCheck" 0.04 ms (1)
+Mar 06 21:55:46 symfony [info] {sfWebDebugLogger} Partial "system/_browserCheck" 0.42 ms (1)
+Mar 06 21:55:46 symfony [info] {sfWebDebugLogger} Component "system/javascriptCheck" 0.01 ms (1)
+Mar 06 21:55:46 symfony [info] {sfWebDebugLogger} Partial "system/_javascriptCheck" 0.59 ms (1)
+Mar 06 21:55:46 symfony [info] {sfWebResponse} Send content (38317 o)
+Mar 06 21:56:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'designs',  'action' => 'index',)
+Mar 06 21:56:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 06 21:56:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 06 21:56:04 symfony [info] {designsActions} Call "designsActions->executeIndex()"
+Mar 06 21:56:04 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/designs/templates/indexSuccess.php"
+Mar 06 21:56:04 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:56:04 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:56:04 symfony [info] {main} Call "system->executeBrowserCheck()"
+Mar 06 21:56:04 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_browserCheck.php"
+Mar 06 21:56:04 symfony [info] {main} Call "system->executeJavascriptCheck()"
+Mar 06 21:56:04 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_javascriptCheck.php"
+Mar 06 21:56:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 06 21:56:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 21:56:04 symfony [info] {sfWebDebugLogger} Configuration 1.80 ms (11)
+Mar 06 21:56:04 symfony [info] {sfWebDebugLogger} Factories 7.21 ms (1)
+Mar 06 21:56:04 symfony [info] {sfWebDebugLogger} Action "designs/index" 0.18 ms (1)
+Mar 06 21:56:04 symfony [info] {sfWebDebugLogger} View "Success" for "designs/index" 8.31 ms (1)
+Mar 06 21:56:04 symfony [info] {sfWebDebugLogger} Component "system/browserCheck" 0.04 ms (1)
+Mar 06 21:56:04 symfony [info] {sfWebDebugLogger} Partial "system/_browserCheck" 0.45 ms (1)
+Mar 06 21:56:04 symfony [info] {sfWebDebugLogger} Component "system/javascriptCheck" 0.01 ms (1)
+Mar 06 21:56:04 symfony [info] {sfWebDebugLogger} Partial "system/_javascriptCheck" 0.38 ms (1)
+Mar 06 21:56:04 symfony [info] {sfWebResponse} Send content (38317 o)
+Mar 06 21:56:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'designs',  'action' => 'index',)
+Mar 06 21:56:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 06 21:56:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 06 21:56:25 symfony [info] {designsActions} Call "designsActions->executeIndex()"
+Mar 06 21:56:25 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/designs/templates/indexSuccess.php"
+Mar 06 21:56:25 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:56:25 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:56:25 symfony [info] {main} Call "system->executeBrowserCheck()"
+Mar 06 21:56:25 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_browserCheck.php"
+Mar 06 21:56:25 symfony [info] {main} Call "system->executeJavascriptCheck()"
+Mar 06 21:56:25 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_javascriptCheck.php"
+Mar 06 21:56:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 06 21:56:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 21:56:25 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (11)
+Mar 06 21:56:25 symfony [info] {sfWebDebugLogger} Factories 6.68 ms (1)
+Mar 06 21:56:25 symfony [info] {sfWebDebugLogger} Action "designs/index" 0.17 ms (1)
+Mar 06 21:56:25 symfony [info] {sfWebDebugLogger} View "Success" for "designs/index" 6.69 ms (1)
+Mar 06 21:56:25 symfony [info] {sfWebDebugLogger} Component "system/browserCheck" 0.03 ms (1)
+Mar 06 21:56:25 symfony [info] {sfWebDebugLogger} Partial "system/_browserCheck" 0.34 ms (1)
+Mar 06 21:56:25 symfony [info] {sfWebDebugLogger} Component "system/javascriptCheck" 0.01 ms (1)
+Mar 06 21:56:25 symfony [info] {sfWebDebugLogger} Partial "system/_javascriptCheck" 0.30 ms (1)
+Mar 06 21:56:25 symfony [info] {sfWebResponse} Send content (38317 o)
+Mar 06 21:57:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'designs',  'action' => 'index',)
+Mar 06 21:57:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 06 21:57:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 06 21:57:18 symfony [info] {designsActions} Call "designsActions->executeIndex()"
+Mar 06 21:57:18 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/designs/templates/indexSuccess.php"
+Mar 06 21:57:18 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:57:18 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:57:18 symfony [info] {main} Call "system->executeBrowserCheck()"
+Mar 06 21:57:18 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_browserCheck.php"
+Mar 06 21:57:18 symfony [info] {main} Call "system->executeJavascriptCheck()"
+Mar 06 21:57:18 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_javascriptCheck.php"
+Mar 06 21:57:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 06 21:57:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 21:57:18 symfony [info] {sfWebDebugLogger} Configuration 93.47 ms (11)
+Mar 06 21:57:18 symfony [info] {sfWebDebugLogger} Factories 59.53 ms (1)
+Mar 06 21:57:18 symfony [info] {sfWebDebugLogger} Action "designs/index" 0.21 ms (1)
+Mar 06 21:57:18 symfony [info] {sfWebDebugLogger} View "Success" for "designs/index" 15.55 ms (1)
+Mar 06 21:57:18 symfony [info] {sfWebDebugLogger} Component "system/browserCheck" 0.06 ms (1)
+Mar 06 21:57:18 symfony [info] {sfWebDebugLogger} Partial "system/_browserCheck" 0.52 ms (1)
+Mar 06 21:57:18 symfony [info] {sfWebDebugLogger} Component "system/javascriptCheck" 0.02 ms (1)
+Mar 06 21:57:18 symfony [info] {sfWebDebugLogger} Partial "system/_javascriptCheck" 0.42 ms (1)
+Mar 06 21:57:18 symfony [info] {sfWebResponse} Send content (38339 o)
+Mar 06 21:58:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'designs',  'action' => 'index',)
+Mar 06 21:58:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 06 21:58:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 06 21:58:43 symfony [info] {designsActions} Call "designsActions->executeIndex()"
+Mar 06 21:58:43 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/designs/templates/indexSuccess.php"
+Mar 06 21:58:43 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:58:43 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/templates/layout.php"
+Mar 06 21:58:43 symfony [info] {main} Call "system->executeBrowserCheck()"
+Mar 06 21:58:43 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_browserCheck.php"
+Mar 06 21:58:43 symfony [info] {main} Call "system->executeJavascriptCheck()"
+Mar 06 21:58:43 symfony [info] {sfPartialView} Render "/Applications/MAMP/htdocs/designer/apps/frontend/modules/system/templates/_javascriptCheck.php"
+Mar 06 21:58:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 06 21:58:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 21:58:43 symfony [info] {sfWebDebugLogger} Configuration 1.93 ms (11)
+Mar 06 21:58:43 symfony [info] {sfWebDebugLogger} Factories 6.85 ms (1)
+Mar 06 21:58:43 symfony [info] {sfWebDebugLogger} Action "designs/index" 0.16 ms (1)
+Mar 06 21:58:43 symfony [info] {sfWebDebugLogger} View "Success" for "designs/index" 8.62 ms (1)
+Mar 06 21:58:43 symfony [info] {sfWebDebugLogger} Component "system/browserCheck" 0.05 ms (1)
+Mar 06 21:58:43 symfony [info] {sfWebDebugLogger} Partial "system/_browserCheck" 0.53 ms (1)
+Mar 06 21:58:43 symfony [info] {sfWebDebugLogger} Component "system/javascriptCheck" 0.01 ms (1)
+Mar 06 21:58:43 symfony [info] {sfWebDebugLogger} Partial "system/_javascriptCheck" 0.43 ms (1)
+Mar 06 21:58:43 symfony [info] {sfWebResponse} Send content (38042 o)
