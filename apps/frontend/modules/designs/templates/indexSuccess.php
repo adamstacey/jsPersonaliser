@@ -14,12 +14,6 @@
 	</div>
 </div>
 <div id="toolbar">
-	<div id="toolbar_standard" class="toolbar">
-		<div class="toolbar-icon"><img title="Rotate object left" src="/images/toolbar/rotate-left.png" alt="Rotate Left" width="24" height="24" /></div>
-		<div class="toolbar-icon"><img title="Rotate object right" src="/images/toolbar/rotate-right.png" alt="Rotate Right" width="24" height="24" /></div>
-		<div class="toolbar-icon"><img title="Bring object to the front" src="/images/toolbar/bring-to-front.png" alt="Bring to Front" width="24" height="24" /></div>
-		<div class="toolbar-icon"><img title="Send object to the back" src="/images/toolbar/send-to-back.png" alt="Send to Back" width="24" height="24" /></div>
-	</div>
 	<div id="toolbar_text_box" class="toolbar hide">
 		<div class="toolbar-icon"><input style="width: 176px; font-size: 10px;" id="text" name="text" /></div>
 		<div class="toolbar-icon"><img title="Bold" src="/images/toolbar/bold.png" alt="Bold" width="26" height="23" /></div>
@@ -79,8 +73,28 @@
 		</div>
 	</div>
 	<div id="toolbar_picture" class="toolbar hide">
-		<div class="toolbar-icon"><img id="loading_uploadify" src="/images/loading/loading-uploadify.gif" alt="Loading..." width="24" height="24" /></div>
-		<div id="upload_picture_container">
+		<div class="toolbar-icon"><img title="Enlarge Picture" src="/images/toolbar/enlarge.png" alt="Enlarge Picture" width="24" height="24" /><div class="toolbar-text">Enlarge</div></div>
+		<div class="toolbar-icon"><img title="Reduce Picture" src="/images/toolbar/reduce.png" alt="Reduce Picture" width="24" height="24" /><div class="toolbar-text">Reduce</div></div>
+		<div class="toolbar-icon"><img title="Rotate Picture Right" src="/images/toolbar/rotate-right.png" alt="Rotate Picture Right" width="24" height="24" /><div class="toolbar-text">Rotate Right</div></div>
+		<div class="toolbar-icon"><img title="Rotate Picture Left" src="/images/toolbar/rotate-left.png" alt="Rotate Picture Left" width="24" height="24" /><div class="toolbar-text">Rotate Left</div></div>
+		<div class="toolbar-icon"><img title="Rotate Picture Right 90&deg;" src="/images/toolbar/rotate-right-90.png" alt="Rotate Picture Right 90&deg;" width="24" height="24" /><div class="toolbar-text">Rotate Right 90&deg;</div></div>
+		<div class="toolbar-icon"><img title="Rotate Picture Left 90&deg;" src="/images/toolbar/rotate-left-90.png" alt="Rotate Picture Left 90&deg;" width="24" height="24" /><div class="toolbar-text">Rotate Left 90&deg;</div></div>
+		<div class="toolbar-icon"><img title="Flip Picture Vertical" src="/images/toolbar/flip-vertical.png" alt="Flip Picture Vertical" width="24" height="24" /><div class="toolbar-text">Flip Vertical</div></div>
+		<div class="toolbar-icon"><img title="Flip Picture Horizontal" src="/images/toolbar/flip-horizontal.png" alt="Flip Picture Horizontal" width="24" height="24" /><div class="toolbar-text">Flip Horizontal</div></div>
+		<div class="toolbar-icon">
+			<select>
+		    	<option value="0">None</option>
+		        <option value="1">1</option>
+		        <option value="2">2</option>
+		        <option value="4">4</option>
+		        <option value="8">8</option>
+		        <option value="10">10</option>
+			</select>
+			<div title="Border Colour" class="colour-picker" style="background-color: #000000;"></div>
+			<div class="toolbar-text">Border</div>
+		</div>
+		<div class="toolbar-icon" id="loading_uploadify"><img src="/images/loading/loading-uploadify.gif" alt="Loading..." width="24" height="24" /></div>
+		<div id="upload_picture_container" class="toolbar-icon">
     		<input id="upload_picture" name="upload_picture" type="file" />
     	</div>
     	<div id="upload_picture_queue"></div>
